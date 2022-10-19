@@ -58,4 +58,3 @@ async def check_token(request: Request, _next) -> Response:
     response.headers["X-Process-Time"] = str(time.time() - start_time)
 
     return response
-
